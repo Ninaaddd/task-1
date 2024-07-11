@@ -25,7 +25,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository
    ```sh
-   git clone https://github.com/your-username/task-1.git
+   git clone https://github.com/Ninaaddd/task-1.git
    cd task-1
 
 2. Install Dependencies
@@ -47,7 +47,7 @@ To get a local copy up and running, follow these steps:
 
 2. API Endpoints:
 
-    Register a new user: POST /api/auth/register
-    Login: POST /api/auth/login
-    Forgot password: POST /api/auth/forgot-password
-    Reset password: POST /api/auth/reset-password/:token
+    i. Register a new user: POST /api/auth/register
+    ii. Login: POST /api/auth/login
+    iii.Forgot password: POST /api/auth/forgot-password
+    iv. Reset password: POST /api/auth/reset-password/:token
