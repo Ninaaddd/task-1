@@ -29,25 +29,27 @@ To get a local copy up and running, follow these steps:
    cd task-1
 
 2. Install Dependencies
+    ```sh
     npm install
 
 3. Set up environment variables
     Create a .env file in the root directory
     Add the following variables:
-    i. MONGO_URL
-    ii. PASS_SEC
-    iii. JWT_SEC
-    iv. EMAIL
-    v. EMAIL_PASSWORD
+    - MONGO_URL
+    - PASS_SEC
+    - JWT_SEC
+    - EMAIL
+    - EMAIL_PASSWORD
 
 ### Usage
 
 1. Start the server
+   ```sh
     npm start
 
 2. API Endpoints:
 
-    i. Register a new user: POST /api/auth/register
-    ii. Login: POST /api/auth/login
-    iii.Forgot password: POST /api/auth/forgot-password
-    iv. Reset password: POST /api/auth/reset-password/:token
+    - Register a new user: POST /api/auth/register
+    - Login: POST /api/auth/login
+    - Forgot password: POST /api/auth/forgot-password
+    - Reset password: POST /api/auth/reset-password/:token
